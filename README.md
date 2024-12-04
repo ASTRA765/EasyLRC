@@ -13,3 +13,5 @@ python ./lrc.py Name of the song
 ```
 
 The script will search for the lyrics of the song on https://lrclib.net and create an LRC file in the same folder where you run the script.
+
+I know it's not perfect, but this tool is something I've been looking for a long time, and I just wanted to share it.
