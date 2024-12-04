@@ -16,7 +16,7 @@ name = "_".join(sys.argv[1:])
 options = Options()
 options.headless = True
 
-service = Service("geckodriver")
+service = Service("/data/data/com.termux/files/usr/bin/geckodriver")
 
 driver = webdriver.Firefox(service=service, options=options)
 
